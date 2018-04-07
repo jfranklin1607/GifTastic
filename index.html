@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Giphy Api</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Shadows+Into+Light" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="header">GifTastic</h1>
+        <!-- Rendered Buttons will get Dumped Here  -->
+        <div id="buttons-view"></div>
+        <form id="giphy-form">
+            <label for="giphy-input">Search Giphy Here</label>
+            <input type="text" id="giphy-input">
+            <br>
+            <!-- Button triggers new topic to be added -->
+            <input id="add-topic" type="submit" value="Add Topic">
+        </form>
+        <!-- giphys will Get Dumped Dere -->
+        <div id="giphy-view"></div>
+    </div>
+    <script src="assets/javascript/api.js"></script>
+</body>
+
+</html>

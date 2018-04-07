@@ -1,0 +1,33 @@
+button,
+div,
+form,
+input {
+    margin-top: 50px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+body {
+    background-image: url("../images/images.jpg");
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#header {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    font-family: 'Bree Serif', serif;
+    color: orange;
+    text-shadow: 2px 2px black;
+}
+
+
+.container {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    color: purple;
+    text-shadow: 1px 1px black;
+    font-weight: bolder;
+}
